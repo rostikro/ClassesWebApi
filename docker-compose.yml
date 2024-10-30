@@ -1,0 +1,6 @@
+﻿services:
+  classeswebapi:
+    image: classeswebapi
+    build:
+      context: .
+      dockerfile: ClassesWebApi/Dockerfile
